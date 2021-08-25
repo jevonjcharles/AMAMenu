@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A669D3A326D4424400967154 /* AMAMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669D3A226D4424400967154 /* AMAMenuApp.swift */; };
-		A669D3A526D4424400967154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669D3A426D4424400967154 /* ContentView.swift */; };
+		A669D3A526D4424400967154 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669D3A426D4424400967154 /* MenuView.swift */; };
 		A669D3A726D4424700967154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A669D3A626D4424700967154 /* Assets.xcassets */; };
 		A669D3AA26D4424700967154 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A669D3A926D4424700967154 /* Preview Assets.xcassets */; };
+		A669D3B226D448E800967154 /* NavigationView+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669D3B126D448E800967154 /* NavigationView+BackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A669D39F26D4424400967154 /* AMAMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMAMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A669D3A226D4424400967154 /* AMAMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAMenuApp.swift; sourceTree = "<group>"; };
-		A669D3A426D4424400967154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A669D3A426D4424400967154 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A669D3A626D4424700967154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A669D3A926D4424700967154 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A669D3AB26D4424700967154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A669D3B126D448E800967154 /* NavigationView+BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView+BackgroundColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				A669D3A226D4424400967154 /* AMAMenuApp.swift */,
-				A669D3A426D4424400967154 /* ContentView.swift */,
+				A669D3A426D4424400967154 /* MenuView.swift */,
+				A669D3B126D448E800967154 /* NavigationView+BackgroundColor.swift */,
 				A669D3A626D4424700967154 /* Assets.xcassets */,
 				A669D3AB26D4424700967154 /* Info.plist */,
 				A669D3A826D4424700967154 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A669D3A526D4424400967154 /* ContentView.swift in Sources */,
+				A669D3B226D448E800967154 /* NavigationView+BackgroundColor.swift in Sources */,
+				A669D3A526D4424400967154 /* MenuView.swift in Sources */,
 				A669D3A326D4424400967154 /* AMAMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

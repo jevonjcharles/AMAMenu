@@ -11,7 +11,7 @@ import SwiftUI
 struct AMAMenuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
 }
